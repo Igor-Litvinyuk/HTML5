@@ -1,0 +1,14 @@
+Структура:
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Название веб-страницы</title>
+    </head>
+
+    <body>
+        Наполнение веб-страницы
+    </body>
+
+</html>

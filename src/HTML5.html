@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8"/>
+        <title>My first HTML page</title>
+    </head>
+
+    <body>
+        1) Ссылка: <a href="https://ru.wikipedia.org/wiki/HTML5" target="_blank">HTML5 click me</a>!<br/>
+        2) Форматирование текста:<br/>
+        <strong>Жирный</strong><br/>
+        <em>Курсив</em><br/>
+        <dfn>Формулировка термина</dfn><br/>
+        <code>Текст компьютерного кода</code><br/>
+        <samp>Пример текста компьютерного кода</samp><br/>
+        <kbd>Текст клавиатуры</kbd><br/>
+        <var>Переменная</var><br/>
+        <cite>Цитата</cite><br/>
+        3) Создание списка с опциями:
+        <select>
+            <option>Volvo</option>
+            <option>Saab</option>
+            <option>Mercedes</option>
+            <option>Audi</option>
+        </select><br/>
+        4) Заголовки:
+        <h1>4.1 Заголовок h1</h1>
+        <h2>4.2 Заголовок h2</h2>
+        <h3>4.3 Заголовок h3</h3>
+        <h4>4.4 Заголовок h4</h4>
+        <h5>4.5 Заголовок h5</h5>
+        <h6>4.6 Заголовок h6</h6>
+        5) Картинка (Абсолютный путь): <br/> <img src="https://www.g-m-group.com/images/articles/web-site.jpg" width="200px"/><br/>
+        6) Картинка (Относительный путь): <br/> <img src="resourses/newimage.jpg" width="200px" height="200px"/><br/>
+        7) Перенос строки: <br/>
+        8) Блок: <div>Тело блока</div>
+        9) Таблица:
+        <table border="2">
+            <caption>Users</caption>
+            <colgroup width="100px" span="3"></colgroup>
+            <colgroup width="200px"></colgroup>
+            <tr>
+                <td>Id</td>
+                <td>Name</td>
+                <td>Surname</td>
+                <td>E-mail</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Igor</td>
+                <td>Litvinyuk</td>
+                <td>igorlitvinyuk@gmail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Vlad</td>
+                <td>Pakholyuk</td>
+                <td>vladpakholyuk@gmail.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Oleg</td>
+                <td>Irvanidze</td>
+                <td>olegirvanidze@gmail.com</td>
+            </tr>
+        </table>
+        10) Поле для ввода текста <input value="Введите текст!"/><br/>
+        11) Поле для ввода большого текста: <textarea></textarea><br/>
+        12) Расшифровка аббревиатуры: <abbr title="United States of America">USA</abbr> is a federal republic.<br/>
+        13) Определение сокращений: <acronym title="as soon as possible">ASAP</acronym>!<br/>
+        14) Контактная информация:
+        <address>
+            Igor Litvinyuk<br/>
+            Phone: +380636145172<br/>
+            E-mail: igorlitvinyuk1993@gmail.com<br/>
+        </address>
+        15) Направление текста: <bdo dir="rtl">HTML5</bdo><br/>
+        16) Большая цитата:
+        <blockquote>
+            Here is a long quotation here is a long  quotation here is a long quotation here is a long quotation here
+            is a  long quotation here is a long quotation here is a long quotation here  is a long quotation here is a long quotation.
+        </blockquote>
+        17) Кнопка: <button>Click me</button>!<br/>
+        18) Описание элемента:
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+        </dl>
+        19) Абзац: <p>My favorite color is black</p>
+        20) Определение удаленного/вставленного текста:
+        <p>My favorite color is <del>black</del> <ins>white</ins>!</p>
+        21) Создание формы для ввода:
+        <form>
+            Имя: <input type="text" name="name" /><br/>
+            Фамилия: <input type="text" name="surname" /><br/>
+            <input type="submit" value="Submit" />
+        </form>
+        22) Группировка похожих элементов в форме:
+        <form>
+            <fieldset>
+                <legend>Person:</legend>
+                Name: <input type="text" size="30"/><br/>
+                Email: <input type="text" size="30"/><br/>
+                Date of birth: <input type="text" size="15"/>
+            </fieldset>
+        </form>
+        23) Линия подчеркивания: <hr/>
+        24) Метка:
+        <form>
+            <label for="male">Male</label>
+            <input type="radio" name="sex" id="male"/>
+            <br/>
+            <label for="female">Female</label>
+            <input type="radio" name="sex" id="female"/>
+        </form>
+        25) Упорядоченный список:
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+        26) Неупорядоченный список:
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+        27) Группировка опций(выпадающее меню):
+        <select>
+            <optgroup label="Swedish Cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+            </optgroup>
+            <optgroup label="German Cars">
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </optgroup>
+        </select><br/>
+        28) Предварительно отформатированный текст:
+        <pre>
+             Text in a pre element
+         is displayed in a fixed-width
+        font, and it preserves
+        both             spaces and
+        line breaks
+        </pre>
+        29) Короткая цитата: <q>Here is a short quotation</q><br/>
+        30) Возможность добавить часточку: <p>My mother has <span class="blue">light blue</span>  eyes.</p><br/>
+        31) Текст в виде нижнего индекса: <p>Water formula: H<sub>2</sub>O</p><br/>
+        32) Текст в виде верхнего индекса: <p>Mathematical formula: (a+b)<sup>2</sup></p><br/>
+        33) Группировка контента таблицы:
+        <table border="1">
+            <thead>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+                <td>Sum</td>
+                <td>$180</td>
+            </tr>
+            </tfoot>
+            <tbody>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$80</td>
+            </tr>
+            </tbody>
+        </table>
+        34) Стили шрифта: <tt>/Teletype text/</tt><i> /Italic text/ </i><b>/ Bold text/ </b><br/>
+        35) Размер шрифта: <big> /Big text/ </big><small> /Small text/</small>
+    </body>
+
+</html>
+
