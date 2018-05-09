@@ -5,7 +5,8 @@ a{
 }
 
 select{
-    color: #19FBFF;
+    color: white;
+    background-color: brown;
 }
 
 table{
@@ -46,8 +47,41 @@ strong{
 }
 
 .Message{
+    /*Размер шрифта:*/
     font-size: 20px;
+    /*Цвет шрифта:*/
     color: darkblue;
-    background-color: cyan;
+    /*Рамка:*/
     border: 2px dashed midnightblue;
+    /*Внешние отступы:*/
+    margin: 5px 800px 5px 5px;
+    /*Размер шрифта:*/
+    padding: 10px;
+}
+
+.success{
+    background-color: greenyellow;
+}
+
+.error{
+    color: white;
+    /*Цвет фона:*/
+    background-color: crimson;
+}
+
+.info{
+    background-color: aliceblue;
+    border: 2px solid midnightblue;
+    /*Округление рамки:*/
+    border-radius: 15px;
+}
+
+/*Селекторы событийные:*/
+/*Выделение при наведении:*/
+.Message:hover{
+    border: 6px solid midnightblue;
+}
+
+body{
+    background-image: url("resourses/background.jpg");
 }
