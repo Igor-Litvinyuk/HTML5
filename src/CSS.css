@@ -51,12 +51,31 @@ strong{
     font-size: 20px;
     /*Цвет шрифта:*/
     color: darkblue;
+    /*Цвет фона:*/
+    background-color: aliceblue;
     /*Рамка:*/
     border: 2px dashed midnightblue;
     /*Внешние отступы:*/
     margin: 5px 800px 5px 5px;
     /*Размер шрифта:*/
     padding: 10px;
+    /*Округление рамки:*/
+    border-radius: 15px;
+    /*Прозрачность:*/
+    opacity: 0.7;
+    /*Тень:*/
+    box-shadow: 20px 20px 40px darkred;
+    /*Ширина:*/
+    width: 50%;
+    /*Высота:*/
+    height: 50px;
+    /*Видимость:*/
+    /*display: block; - по умолчанию*/
+    /*display: none; - невидимый*/
+    /*Выравнивание текста:*/
+    text-align: center;
+    /*Жирность текста(вес линий):*/
+    font-weight: 900;
 }
 
 .success{
@@ -65,21 +84,22 @@ strong{
 
 .error{
     color: white;
-    /*Цвет фона:*/
     background-color: crimson;
 }
 
 .info{
     background-color: aliceblue;
     border: 2px solid midnightblue;
-    /*Округление рамки:*/
-    border-radius: 15px;
 }
 
 /*Селекторы событийные:*/
 /*Выделение при наведении:*/
 .Message:hover{
     border: 6px solid midnightblue;
+    /*Трансформация (Поворот_Масштабирование):*/
+    transform: rotate(-3deg) scale(1.3);
+    /*Время трансформации:*/
+    transition: 2s all;
 }
 
 body{
