@@ -1,0 +1,53 @@
+/*Селекторы по тегу:*/
+a{
+    color: darkorange;
+    font-size: 24px;
+}
+
+select{
+    color: #19FBFF;
+}
+
+table{
+    color: blue;
+    background-color: azure;
+}
+
+strong{
+    color: rgba(255, 10, 10, 0.2);
+}
+
+/*Селекторы по идентификатору:*/
+#CSS_ссылка{
+    color: gold;
+}
+
+/*Селекторы по классу:*/
+.Selector{
+    color: cornflowerblue;
+    font-size: 10px;
+}
+
+.Properties{
+    color: blueviolet;
+}
+
+.first{
+    font-size: 12px;
+}
+
+.second{
+    font-size: 14px;
+}
+
+.third{
+    font-size: 16px;
+    /*16px - стандартный размер*/
+}
+
+.Message{
+    font-size: 20px;
+    color: darkblue;
+    background-color: cyan;
+    border: 2px dashed midnightblue;
+}
